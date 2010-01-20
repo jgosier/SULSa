@@ -1,0 +1,38 @@
+ABOUT
+
+SULSa was created to allow programmers and developers to easily add the location info of users to their POST requests to Ushahdi.  The location information is updated monthly from http://www.hostip.info to a server managed by us to ensure it never goes offline permanently.  This early service for location information will grow with Ushahidi/Swift and allow users to offer documentation on how to pull and push user location from reports as XML, JSON as well as incorporating the emerging EDXL and PFIF standards.
+
+API
+
+url - http://67.23.24.128:3000/find_loc/<user ip address>/<format>
+
+replace <user ip address> with an actual ip address.  ex. 67.23.24.128
+
+replace <format> with the format you want to return. Currently only XML and JSON are supported.
+
+EXAMPLES
+
+XML example - http://67.23.24.128:3000/find_loc/67.23.24.128/xml
+Click here to see it in Action
+
+<ip-group-cities type="array"> 
+  <ip-group-city> 
+    <city>Mercer Island</city> 
+    <country-code>US</country-code> 
+    <country-name>United States</country-name> 
+    <dstOffset>-7</dstOffset> 
+    <gmtOffset>-8</gmtOffset> 
+    <ip-start type="integer">1125586944</ip-start> 
+    <latitude type="float">47.5602</latitude> 
+    <longitude type="float">-122.228</longitude> 
+    <region-code>53</region-code> 
+    <region-name>Washington</region-name> 
+    <timezone>-8</timezone> 
+    <zipcode>98040</zipcode> 
+  </ip-group-city> 
+</ip-group-cities> 
+
+JSON example - http://67.23.24.128:3000/find_loc/67.23.24.128/json
+Click here to see it in Action
+
+[{"ip_group_city":{"region_name":"Washington","country_code":"US","city":"Mercer Island","latitude":47.5602,"gmtOffset":"-8","region_code":"53","dstOffset":"-7","zipcode":"98040","timezone":"-8","ip_start":1125586944,"longitude":-122.228,"country_name":"United States"}}]
