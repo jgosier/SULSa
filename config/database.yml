@@ -19,8 +19,8 @@ development:
   encoding: utf8
   database: ipinfo
   pool: 5
-  username: root
-  password: mosespass
+  username: username
+  password: password
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -31,8 +31,8 @@ test:
   encoding: utf8
   database: ipinfo
   pool: 5
-  username: root
-  password: mosespass
+  username: username
+  password: password
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -40,6 +40,6 @@ production:
   encoding: utf8
   database: ipinfo
   pool: 5
-  username: root
-  password: mosespass
+  username: username
+  password: password
   socket: /var/run/mysqld/mysqld.sock
