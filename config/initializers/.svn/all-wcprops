@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2145/nslookup/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2145/nslookup/config/initializers/inflections.rb
+END
+new_rails_defaults.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2145/nslookup/config/initializers/new_rails_defaults.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2145/nslookup/config/initializers/mime_types.rb
+END

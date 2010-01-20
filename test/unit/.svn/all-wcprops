@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2145/nslookup/test/unit
+END
+country_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2145/nslookup/test/unit/country_test.rb
+END
+ip_group_country_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2145/nslookup/test/unit/ip_group_country_test.rb
+END
+ip_group_city_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2145/nslookup/test/unit/ip_group_city_test.rb
+END

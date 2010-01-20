@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2145/nslookup/test/fixtures
+END
+ip_group_countries.yml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2145/nslookup/test/fixtures/ip_group_countries.yml
+END
+ip_group_cities.yml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2145/nslookup/test/fixtures/ip_group_cities.yml
+END
+countries.yml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2145/nslookup/test/fixtures/countries.yml
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2145/nslookup/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2145/nslookup/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2145/nslookup/config/database.yml
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2145/nslookup/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2145/nslookup/config/environment.rb
+END

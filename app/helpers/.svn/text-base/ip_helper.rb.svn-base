@@ -1,0 +1,2 @@
+module IpHelper
+end

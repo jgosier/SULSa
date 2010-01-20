@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2145/nslookup/db/migrate
+END
+20100119120841_create_ip_group_countries.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2145/nslookup/db/migrate/20100119120841_create_ip_group_countries.rb
+END
+20100119121233_create_ip_group_cities.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2145/nslookup/db/migrate/20100119121233_create_ip_group_cities.rb
+END
+20100119115217_create_countries.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2145/nslookup/db/migrate/20100119115217_create_countries.rb
+END
