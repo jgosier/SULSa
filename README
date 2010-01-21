@@ -3,6 +3,8 @@ ABOUT
 =======
  
 SULSa (Swift User Location Services App) was created to allow programmers and developers to easily add the location info of users to their POST requests to Ushahdi.  The location information is updated monthly from http://www.hostip.info to a server managed by Ushahidi to ensure it never goes offline permanently. Returns JSON, standard XML as well as PFIF, GeoRSS, and EDXL.
+
+Why use it? SULSa is a service that applications can use to get lat/lon coordinates of users, using only their IP address, which the Ushahidi API requires for all POST requests. In a nutshell, if you've got a user's ip address, you can use SULSa to get their location returned in a format that's easy for third party applications to parse.
  
 Developers - Moses Mugisha, Jon Gosier
 
