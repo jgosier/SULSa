@@ -34,11 +34,14 @@ ActionController::Routing::Routes.draw do |map|
   # map.root :controller => "welcome"
 
   # See how all your routes lay out with "rake routes"
-
+  map.ip2 '/find_loc/:ip/edxl', :controller => 'ip', :action => 'edxl', :requirements => {:ip => /(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)/}
+  map.ip3 '/find_loc/:ip/pfif', :controller => 'ip', :action => 'pfif', :requirements => {:ip => /(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)/}
+  map.ip4 '/find_loc/:ip/georss', :controller => 'ip', :action => 'georss', :requirements => {:ip => /(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)/}    
   # Install the default routes as the lowest priority.
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing the them or commenting them out if you're using named routes and resources.
   map.ip '/find_loc/:ip/:format', :controller => 'ip', :action => 'ip', :requirements => {:ip => /(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)/} 
+  
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
 end

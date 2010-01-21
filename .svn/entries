@@ -1,14 +1,14 @@
 10
 
 dir
-2146
+2148
 http://appfricalabs.dyndns.org/svn/nslookup
 http://appfricalabs.dyndns.org/svn
 
 
 
-2010-01-19T14:10:28.203087Z
-2146
+2010-01-21T09:27:02.525958Z
+2148
 mossplix
 
 
@@ -106,6 +106,9 @@ has-props
 db
 dir
 
+vendor
+dir
+
 README
 file
 
@@ -140,19 +143,16 @@ mossplix
 
 10619
 
-vendor
-dir
-
 tmp
 dir
 
 script
 dir
 
-doc
+config
 dir
 
-config
+doc
 dir
 
 lib

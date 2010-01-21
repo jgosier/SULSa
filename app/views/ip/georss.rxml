@@ -1,0 +1,16 @@
+
+@xml.instruct! 
+xml.rss "xmlns:georss" => "http://www.georss.org/georss" do
+  xml.channel do
+    xml.title("ip address feed")
+    xml.link(@w)
+    xml.description("the location of the ipaddress")
+    xml.language('en-us')
+    xml.georss :point do
+      xml.text! @country[0].latitude.to_s + ' ' + @country[0].longitude.to_s
+    end
+  
+   
+    
+  end
+end

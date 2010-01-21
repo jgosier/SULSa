@@ -1,0 +1,12 @@
+
+@xml.instruct! 
+xml.EDXLDistribution "xmlns" => "urn:oasis:names:tc:emergency:EDXL:DE:1.0" do
+  xml.targetArea do
+    xml.circle(@country[0].latitude,"  ",  @country[0].longitude,"  ",  0)
+  xml.country(@country[0].country_name)
+  xml.subdivision(@country[0].city, " ,",@country[0].region_name)
+  xml.locCodeUN(@country[0].country_code)
+   
+    
+  end
+end
